@@ -5,8 +5,14 @@
 }
 
 .main {
-    display: flex;
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+}
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .baner {
@@ -15,7 +21,7 @@
     margin: 15px;
 }
 
-.tituloPri {
+.titulo {
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -47,4 +53,9 @@
 .epsodios {
     display: flex;
     align-items: center;
+}
+
+#aparecer,
+#aparecer1 {
+    display: none;
 }

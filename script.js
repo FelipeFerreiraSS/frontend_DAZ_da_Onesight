@@ -26,12 +26,38 @@ fetch(baseURL)
         document.getElementById('criador1').innerHTML = json[1].creator
         document.getElementById('epsodios1').innerHTML = json[1].episodes
         
-
-        //Desenho 2
-        //var img2 = document.createElement("IMG");
-        //img2.src = json[3].image;
-        //document.getElementById('imagens2').appendChild(img2);
-        
         console.log(json[0])
     }) 
+
+function mais() {
+    let esconder = document.getElementById('esconder')
+    let aparecer = document.getElementById('aparecer')
+    let mais = document.getElementById('mais')
+
+    if(esconder.style.display === "none"){
+        esconder.style.display = "inline"
+        aparecer.style.display = "none"
+        mais.innerText = "Mais"
+    } else {
+        esconder.style.display = "none"
+        aparecer.style.display = "inline"
+        mais.innerText = "Menos" 
+    }
+}
+
+function mais1() {
+    let esconder = document.getElementById('esconder1')
+    let aparecer = document.getElementById('aparecer1')
+    let mais = document.getElementById('mais1')
+
+    if(esconder.style.display === "none"){
+        esconder.style.display = "inline"
+        aparecer.style.display = "none"
+        mais.innerText = "Mais"
+    } else {
+        esconder.style.display = "none"
+        aparecer.style.display = "inline"
+        mais.innerText = "Menos" 
+    }
+}
 
