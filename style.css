@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+
+}
+
+.baner {
+    width: 150px;
+    height: 400px;
+    margin: 15px;
+}
+
+.tituloPri {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.genero {
+    display: flex;
+    align-items: center;
+}
+
+.genero h3 {
+    color: aqua;
+}
+
+.genero p {
+    color: green;
+}
+
+.ano {
+    display: flex;
+    align-items: center;
+}
+
+.criador {
+    display: flex;
+    align-items: center;
+}
+
+.epsodios {
+    display: flex;
+    align-items: center;
+}
