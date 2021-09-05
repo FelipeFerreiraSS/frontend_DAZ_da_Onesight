@@ -136,9 +136,6 @@ fetch(baseURL)
         document.getElementById('criador12').innerHTML = json[12].creator
         document.getElementById('epsodios12').innerHTML = json[12].episodes
 
-        
-        
-        console.log(json)
     }) 
 
 function mais() {
